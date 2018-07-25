@@ -20,6 +20,11 @@ What code should I write to return each of these?:
 + `["mayo", "mustard", "tabasco"]`
 + `"cheddar"`
 + `"sourdough"`
++ 
+
+ingredients[3]
+ingredients[2][2]
+ingredients[0][1]
 
 **DELIVERABLE**: in `index.rb` implement the `sandwich_request` method, which takes in the `ingredients` array and an `order` array which is populated with ingredient strings. If the ingredients in the `order` are found within the `ingredients` array, the method returns `true`, otherwise it returns `false`, i.e.:
 
